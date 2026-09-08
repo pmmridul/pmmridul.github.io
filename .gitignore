@@ -1,0 +1,33 @@
+# Hugo build output directory
+/public/
+
+# Hugo internal caches and resources
+/resources/_gen/
+.hugo_build.lock
+
+# Environment / local configs
+.env
+*.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor artifacts
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+
+# Node modules (if using PostCSS, Tailwind, or npm tools later)
+node_modules/
+package-lock.json
+yarn.lock
